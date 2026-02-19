@@ -64,7 +64,7 @@ public sealed class AzureBlobFileProvider : IFileProvider
         var path = GetFullPath(subpath);
 
         // Get all blobs and iterate to fetch all pages
-        var blobs = _containerClient.GetBlobsByHierarchy(delimiter: "/", prefix: path).ToList();
+        var blobs = _containerClient.GetBlobsByHierarchy(BlobTraits.None, BlobStates.None, path, "/").ToList();
 
         return blobs.Count == 0
             ? NotFoundDirectoryContents.Singleton
