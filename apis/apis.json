@@ -2,7 +2,7 @@
   "apis": [
     {
       "id": "Umbraco.StorageProviders",
-      "version": "13.2.1",
+      "version": "13.2.2",
       "shortName": "Umbraco.StorageProviders"
     }
   ]
