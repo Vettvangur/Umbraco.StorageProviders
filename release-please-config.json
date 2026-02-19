@@ -6,7 +6,7 @@
       "release-type": "dotnet-yoshi",
       "component": "Umbraco.StorageProviders",
       "extra-files": [
-        "version.json"
+        "Directory.Build.props"
       ]
     }
   }
