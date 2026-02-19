@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <Version>13.2.3</Version>
     <Company>Vettvangur</Company>
     <Authors>Vettvangur</Authors>
     <Copyright>Copyright © Vettvangur $([System.DateTime]::Today.ToString('yyyy'))</Copyright>
@@ -37,10 +38,6 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)icon.png" Pack="true" PackagePath="" Visible="false" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>
-  </PropertyGroup>
 
   <!-- Use version range on project references (to limit on major version in generated packages) -->
   <Target Name="_GetProjectReferenceVersionRanges" AfterTargets="_GetProjectReferenceVersions">
