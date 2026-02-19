@@ -12,7 +12,7 @@
     <UmbracoCmsPackageVersion>[13.13.0, 14)</UmbracoCmsPackageVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Azure.Storage.Blobs" Version="12.22.1" />
+    <PackageVersion Include="Azure.Storage.Blobs" Version="12.27.0" />
     <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
     <PackageVersion Include="SixLabors.ImageSharp.Web.Providers.Azure" Version="3.1.3" />
     <PackageVersion Include="Umbraco.Cms.Imaging.ImageSharp" Version="$(UmbracoCmsPackageVersion)" />
