@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 13.2.2, released 2026-02-19
+
+
+### Bug fixes
+
+* update packages ([5619dae](https://github.com/Vettvangur/Umbraco.StorageProviders/commit/5619dae1762052e6693094ce44549789544d545e))
+
 ## Version 13.2.1, released 2026-02-19
 
 
