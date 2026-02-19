@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 13.2.3, released 2026-02-19
+
+
+### Bug fixes
+
+* fetch full history for release-please build ([c17b47b](https://github.com/Vettvangur/Umbraco.StorageProviders/commit/c17b47bae8f19fb56b653f87e13f9864f63fd536))
+* update blob listing signature ([a607eff](https://github.com/Vettvangur/Umbraco.StorageProviders/commit/a607effe061edff0827ba9fcf5a0c9f78a279dd8))
+
 ## Version 13.2.2, released 2026-02-19
 
 
