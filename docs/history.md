@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 13.2.4, released 2026-02-19
+
+
+### Bug fixes
+
+* update README for Umbraco 13 ([d6ce527](https://github.com/Vettvangur/Umbraco.StorageProviders/commit/d6ce5279ba61f40920383e63406c9a3702f38ae9))
+
 ## Version 13.2.3, released 2026-02-19
 
 
