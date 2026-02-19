@@ -1,8 +1,10 @@
 {
   "release-type": "dotnet-yoshi",
+  "last-release-sha": "a39256fd41e631135964534bed7f78ecd9c1b3e4",
   "packages": {
     ".": {
       "release-type": "dotnet-yoshi",
+      "component": "Umbraco.StorageProviders",
       "extra-files": [
         "version.json"
       ]
